@@ -1,4 +1,4 @@
-// src/components/PokemonList.jsx
+
 "use client";
 import React, { useState, useEffect } from "react";
 import PokemonCard from "./PokemonCard";
