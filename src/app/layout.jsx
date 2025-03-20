@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -14,16 +13,14 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "CodeWalnut",
-  description: "Tech Test",
+  title: "Pokémon Explorer",
+  description: "Browse and explore Pokémon with details and pagination.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
